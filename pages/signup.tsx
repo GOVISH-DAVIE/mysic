@@ -42,7 +42,7 @@ const Signup: NextPage = () => {
                       Welcome TO MYSic
                     </Typography>
                     <Typography variant="body2" gutterBottom component="div">
-                      Already Have an Account? <Link href="#" color="inherit">
+                      Already Have an Account? <Link href="/login" color="inherit">
                         Log in?
                       </Link>
                     </Typography>
@@ -77,7 +77,7 @@ const Signup: NextPage = () => {
                       </Box>
                     </Box>
                     <Typography mt={3} variant="body2" gutterBottom component="div">
-                      Already Have an Account? <Link href="#" color="inherit">
+                      Already Have an Account? <Link href="/login" color="inherit">
                         Log in?
                       </Link>
                     </Typography>

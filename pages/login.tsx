@@ -14,7 +14,7 @@ const Item = styled(Paper)(({ theme }) => ({
   textAlign: 'center',
   color: theme.palette.text.secondary,
 }));
-const Home: NextPage = () => {
+const Login: NextPage = () => {
   return (
     <ThemeProvider theme={mainTheme}>
     <div  >
@@ -96,4 +96,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default Login
